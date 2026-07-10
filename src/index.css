@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import 'aos/dist/aos.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
-@import 'aos/dist/aos.css';
 
 :root {
   --primary: #1E40AF;
@@ -12,6 +12,36 @@
   --background: #F8FAFC;
   --dark-background: #0F172A;
   --text: #1E293B;
+}
+
+/* Fallbacks for clean, professional layout compatibility */
+.glow-cyan, .glow-purple {
+  text-shadow: none !important;
+}
+.border-glow-cyan {
+  border-color: rgba(37, 99, 235, 0.2) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+}
+.border-glow-purple {
+  border-color: rgba(139, 92, 246, 0.2) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+}
+.border-glow-accent {
+  border-color: rgba(245, 158, 11, 0.2) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+}
+.glass-cyber {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  color: inherit !important;
+}
+.dark .glass-cyber {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+.scan-line-overlay {
+  display: none !important;
 }
 
 * {

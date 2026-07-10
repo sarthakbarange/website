@@ -46,6 +46,77 @@ function App() {
       document.documentElement.classList.add('dark')
     }
 
+    // Initialize default notices if not present
+    if (!localStorage.getItem('notices')) {
+      const defaultNotices = [
+        {
+          id: 1,
+          title: 'Admission Open for 2024-25 Academic Year',
+          category: 'Admission',
+          date: '2024-01-15',
+          content: 'Admissions are now open for all courses for the 2024-25 academic year. Visit our center or apply online.',
+          important: true
+        },
+        {
+          id: 2,
+          title: 'Free Mock Test Series - JEE Main 2024',
+          category: 'Exam',
+          date: '2024-01-10',
+          content: 'Register for our free mock test series for JEE Main 2024. Tests will be conducted every Sunday.',
+          important: true
+        },
+        {
+          id: 3,
+          title: 'New Foundation Batch Starting for Class 8',
+          category: 'New Course',
+          date: '2024-01-05',
+          content: 'A new foundation batch for Class 8 students will start from February 1st. Limited seats available.',
+          important: false
+        },
+        {
+          id: 4,
+          title: 'Winter Vacation Schedule',
+          category: 'Holiday',
+          date: '2023-12-20',
+          content: 'The institute will remain closed from December 25th to January 1st for winter vacation.',
+          important: false
+        },
+        {
+          id: 5,
+          title: 'Result Declaration - Mid-Term Exams',
+          category: 'Result',
+          date: '2023-12-15',
+          content: 'Mid-term examination results have been declared. Students can collect their report cards from the office.',
+          important: false
+        },
+        {
+          id: 6,
+          title: 'Parent-Teacher Meeting Schedule',
+          category: 'Meeting',
+          date: '2023-12-10',
+          content: 'Parent-teacher meeting will be held on December 20th. All parents are requested to attend.',
+          important: false
+        },
+        {
+          id: 7,
+          title: 'Scholarship Test Registration',
+          category: 'Scholarship',
+          date: '2023-12-05',
+          content: 'Registration open for scholarship test. Top performers will get up to 50% scholarship on course fees.',
+          important: true
+        },
+        {
+          id: 8,
+          title: 'Change in Batch Timings',
+          category: 'Schedule',
+          date: '2023-12-01',
+          content: 'Due to exam season, batch timings have been revised. New schedule effective from December 5th.',
+          important: false
+        }
+      ]
+      localStorage.setItem('notices', JSON.stringify(defaultNotices))
+    }
+
     // Simulate loading
     setTimeout(() => {
       setLoading(false)
