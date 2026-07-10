@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "category": "Classrooms",
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800",
+    "title": "Modern Classroom",
+    "description": "State-of-the-art smart classrooms with digital learning aids"
+  },
+  {
+    "id": 2,
+    "category": "Events",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+    "title": "Annual Function 2024",
+    "description": "Students performing at the annual cultural function"
+  },
+  {
+    "id": 3,
+    "category": "Seminars",
+    "image": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=800",
+    "title": "Career Guidance Seminar",
+    "description": "Expert session on career opportunities in engineering"
+  },
+  {
+    "id": 4,
+    "category": "Workshops",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800",
+    "title": "Science Workshop",
+    "description": "Hands-on science experiment workshop for students"
+  },
+  {
+    "id": 5,
+    "category": "Competitions",
+    "image": "https://images.unsplash.com/photo-1561489413-985b06da5bee?w=800",
+    "title": "Quiz Competition",
+    "description": "Inter-school quiz competition winners"
+  },
+  {
+    "id": 6,
+    "category": "Classrooms",
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800",
+    "title": "Physics Lab",
+    "description": "Well-equipped physics laboratory for practical learning"
+  },
+  {
+    "id": 7,
+    "category": "Events",
+    "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800",
+    "title": "Award Ceremony",
+    "description": "Recognizing top performers in competitive exams"
+  },
+  {
+    "id": 8,
+    "category": "Seminars",
+    "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800",
+    "title": "IITian Talk",
+    "description": "Motivational talk by IIT alumni"
+  },
+  {
+    "id": 9,
+    "category": "Workshops",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
+    "title": "Robotics Workshop",
+    "description": "Introduction to robotics and automation"
+  },
+  {
+    "id": 10,
+    "category": "Competitions",
+    "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800",
+    "title": "Math Olympiad",
+    "description": "Students participating in mathematics olympiad"
+  },
+  {
+    "id": 11,
+    "category": "Classrooms",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800",
+    "title": "Chemistry Lab",
+    "description": "Modern chemistry laboratory with safety equipment"
+  },
+  {
+    "id": 12,
+    "category": "Events",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800",
+    "title": "Farewell Party",
+    "description": "Farewell celebration for outgoing batch"
+  }
+]

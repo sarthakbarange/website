@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "Admissions",
+    "question": "How can I enroll in a course at Excellence Academy?",
+    "answer": "You can enroll by filling out the online admission form on our website or visiting our center in person. Our counselors will guide you through the course selection process based on your requirements and help you complete the admission formalities."
+  },
+  {
+    "id": 2,
+    "category": "Admissions",
+    "question": "What documents are required for admission?",
+    "answer": "For admission, you need to submit: 1) Recent passport-size photographs (2 copies), 2) Previous year's marksheet, 3) School ID proof, 4) Aadhar card copy, 5) Parent's ID proof, and 6) Admission form duly filled and signed."
+  },
+  {
+    "id": 3,
+    "category": "Fees",
+    "question": "What is the fee structure for different courses?",
+    "answer": "Our fee structure varies based on the course and duration. Generally, foundation courses range from ₹45,000-60,000 per year, JEE/NEET courses are around ₹1,40,000-1,50,000 per year, and skill development courses start from ₹15,000. Detailed fee structure is available at our center."
+  },
+  {
+    "id": 4,
+    "category": "Fees",
+    "question": "Are there any scholarship options available?",
+    "answer": "Yes, we offer scholarships based on: 1) Merit (based on previous academic performance), 2) Entrance test performance, 3) Economic background, and 4) Special categories. Scholarship tests are conducted periodically. Contact our office for more details."
+  },
+  {
+    "id": 5,
+    "category": "Batch Timing",
+    "question": "What are the batch timings available?",
+    "answer": "We offer flexible batch timings: Morning batches (6 AM - 10 AM), Afternoon batches (2 PM - 6 PM), and Evening batches (4 PM - 8 PM). Weekend batches are also available for working professionals and foundation courses."
+  },
+  {
+    "id": 6,
+    "category": "Batch Timing",
+    "question": "Can I change my batch timing if needed?",
+    "answer": "Yes, batch changes are subject to availability. You can request a batch change by submitting an application to the administration. Changes are allowed with valid reasons and if seats are available in the desired batch."
+  },
+  {
+    "id": 7,
+    "category": "Hostel",
+    "question": "Do you provide hostel facilities?",
+    "answer": "We don't have our own hostel, but we have partnerships with nearby PG accommodations and hostels. We can help you find suitable accommodation within walking distance from our center. Contact our office for accommodation assistance."
+  },
+  {
+    "id": 8,
+    "category": "Transport",
+    "question": "Is transport facility available?",
+    "answer": "Yes, we have tie-ups with reliable transport service providers who offer pick-up and drop services across the city. Transport routes are designed to cover major areas. Contact our office for route details and charges."
+  },
+  {
+    "id": 9,
+    "category": "Courses",
+    "question": "What makes your JEE/NEET preparation different?",
+    "answer": "Our JEE/NEET preparation stands out due to: 1) IITian/Doctor faculty with extensive experience, 2) Small batch sizes for personal attention, 3) Comprehensive study material, 4) Regular testing with detailed analysis, 5) Doubt-clearing sessions, and 6) Mentorship programs."
+  },
+  {
+    "id": 10,
+    "category": "Courses",
+    "question": "Do you offer demo classes?",
+    "answer": "Yes, we offer free demo classes for all courses. You can attend a demo class to experience our teaching methodology before enrolling. Contact our office to schedule a demo class at your convenience."
+  }
+]

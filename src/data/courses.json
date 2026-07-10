@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "JEE Main & Advanced",
+    "category": "Engineering",
+    "class": "Class 11-12",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800",
+    "description": "Comprehensive preparation for JEE Main and Advanced exams with expert faculty and rigorous testing.",
+    "duration": "2 Years",
+    "fees": "₹1,50,000/year",
+    "timing": "Mon-Fri: 4 PM - 8 PM",
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "features": [
+      "Expert IITian Faculty",
+      "Small Batch Size (30 students)",
+      "Weekly Tests & Analysis",
+      "Study Material & DPPs",
+      "Doubt Clearing Sessions",
+      "Mock Tests"
+    ],
+    "seats": 25,
+    "status": "Open"
+  },
+  {
+    "id": 2,
+    "name": "NEET Preparation",
+    "category": "Medical",
+    "class": "Class 11-12",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800",
+    "description": "Complete NEET preparation program with focus on Biology, Chemistry, and Physics for medical aspirants.",
+    "duration": "2 Years",
+    "fees": "₹1,40,000/year",
+    "timing": "Mon-Fri: 4 PM - 8 PM",
+    "subjects": ["Physics", "Chemistry", "Biology"],
+    "features": [
+      "Medical Expert Faculty",
+      "NCERT & Advanced Coverage",
+      "Regular Mock Tests",
+      "Illustrated Study Material",
+      "Practical Training",
+      "Counseling Support"
+    ],
+    "seats": 30,
+    "status": "Open"
+  },
+  {
+    "id": 3,
+    "name": "MHT CET",
+    "category": "State Level",
+    "class": "Class 12",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
+    "description": "Targeted preparation for Maharashtra Common Entrance Test with state-specific focus and practice.",
+    "duration": "1 Year",
+    "fees": "₹80,000",
+    "timing": "Mon-Sat: 5 PM - 8 PM",
+    "subjects": ["Physics", "Chemistry", "Mathematics/Biology"],
+    "features": [
+      "Maharashtra Board Focus",
+      "Previous Year Papers",
+      "Speed Building Techniques",
+      "Topic-wise Tests",
+      "Personal Mentorship",
+      "Result Analysis"
+    ],
+    "seats": 40,
+    "status": "Open"
+  },
+  {
+    "id": 4,
+    "name": "Foundation Batch (Class 8-10)",
+    "category": "Foundation",
+    "class": "Class 8-10",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800",
+    "description": "Strong foundation building program for students to develop conceptual understanding and problem-solving skills.",
+    "duration": "3 Years",
+    "fees": "₹60,000/year",
+    "timing": "Sat-Sun: 9 AM - 1 PM",
+    "subjects": ["Science", "Mathematics", "English", "Social Studies"],
+    "features": [
+      "Concept Building",
+      "Olympiad Preparation",
+      "Interactive Learning",
+      "Activity-based Teaching",
+      "Regular Assessments",
+      "Parent Feedback"
+    ],
+    "seats": 35,
+    "status": "Open"
+  },
+  {
+    "id": 5,
+    "name": "Spoken English",
+    "category": "Skill Development",
+    "class": "All Ages",
+    "image": "https://images.unsplash.com/photo-1543109740-4bdb38fda756?w=800",
+    "description": "Improve your English communication skills with our comprehensive spoken English program.",
+    "duration": "3 Months",
+    "fees": "₹15,000",
+    "timing": "Mon-Wed-Fri: 6 PM - 8 PM",
+    "subjects": ["Grammar", "Vocabulary", "Communication", "Presentation"],
+    "features": [
+      "Interactive Sessions",
+      "Group Discussions",
+      "Public Speaking",
+      "Accent Training",
+      "Real-life Practice",
+      "Certificate Course"
+    ],
+    "seats": 20,
+    "status": "Open"
+  },
+  {
+    "id": 6,
+    "name": "Computer Courses",
+    "category": "Skill Development",
+    "class": "All Ages",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800",
+    "description": "Learn essential computer skills including programming, web development, and basic computer operations.",
+    "duration": "6 Months",
+    "fees": "₹25,000",
+    "timing": "Tue-Thu-Sat: 4 PM - 6 PM",
+    "subjects": ["Programming", "Web Development", "Office Tools", "Basic Computing"],
+    "features": [
+      "Hands-on Training",
+      "Project-based Learning",
+      "Industry-relevant Skills",
+      "Certification",
+      "Lab Access",
+      "Job Assistance"
+    ],
+    "seats": 25,
+    "status": "Open"
+  },
+  {
+    "id": 7,
+    "name": "Class 8-10 Board Preparation",
+    "category": "School",
+    "class": "Class 8-10",
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800",
+    "description": "Comprehensive board exam preparation with focus on scoring high marks in school examinations.",
+    "duration": "1 Year per class",
+    "fees": "₹45,000/year",
+    "timing": "Mon-Fri: 4 PM - 7 PM",
+    "subjects": ["Mathematics", "Science", "English", "Social Studies"],
+    "features": [
+      "Board-focused Teaching",
+      "Chapter-wise Tests",
+      "Previous Year Papers",
+      "Writing Practice",
+      "Time Management",
+      "Score Enhancement"
+    ],
+    "seats": 30,
+    "status": "Open"
+  },
+  {
+    "id": 8,
+    "name": "Class 11-12 Science",
+    "category": "School",
+    "class": "Class 11-12",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800",
+    "description": "Complete science stream preparation for both board exams and competitive entrance tests.",
+    "duration": "2 Years",
+    "fees": "₹70,000/year",
+    "timing": "Mon-Fri: 4 PM - 8 PM",
+    "subjects": ["Physics", "Chemistry", "Mathematics/Biology", "English"],
+    "features": [
+      "Dual Preparation",
+      "Concept Clarity",
+      "Regular Testing",
+      "Performance Tracking",
+      "Individual Attention",
+      "Career Guidance"
+    ],
+    "seats": 25,
+    "status": "Open"
+  }
+]

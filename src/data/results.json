@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Mehta",
+    "exam": "JEE Advanced",
+    "rank": 156,
+    "year": 2024,
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "course": "JEE Main & Advanced",
+    "quote": "Excellence Academy provided me with the perfect guidance and support. The faculty's dedication and the structured study material were instrumental in my success.",
+    "currentStatus": "B.Tech, IIT Bombay"
+  },
+  {
+    "id": 2,
+    "name": "Sneha Patel",
+    "exam": "NEET",
+    "rank": 89,
+    "year": 2024,
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+    "course": "NEET Preparation",
+    "quote": "The personalized attention and regular mock tests at Excellence Academy helped me identify my weak areas and improve consistently. Highly recommended!",
+    "currentStatus": "MBBS, AIIMS Delhi"
+  },
+  {
+    "id": 3,
+    "name": "Rahul Sharma",
+    "exam": "JEE Main",
+    "rank": 245,
+    "year": 2024,
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    "course": "JEE Main & Advanced",
+    "quote": "The faculty members are not just teachers but mentors who genuinely care about each student's progress. Their support went beyond academics.",
+    "currentStatus": "B.Tech, IIT Delhi"
+  },
+  {
+    "id": 4,
+    "name": "Priya Nair",
+    "exam": "MHT CET",
+    "rank": 12,
+    "year": 2024,
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+    "course": "MHT CET",
+    "quote": "The state-specific preparation and extensive practice with previous year papers gave me a competitive edge in MHT CET.",
+    "currentStatus": "B.Tech, COEP Pune"
+  },
+  {
+    "id": 5,
+    "name": "Amit Kumar",
+    "exam": "NEET",
+    "rank": 234,
+    "year": 2024,
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "course": "NEET Preparation",
+    "quote": "The biology faculty's teaching methods made complex concepts easy to understand. The illustrated study material was extremely helpful.",
+    "currentStatus": "MBBS, JIPMER"
+  },
+  {
+    "id": 6,
+    "name": "Kavita Reddy",
+    "exam": "JEE Advanced",
+    "rank": 312,
+    "year": 2024,
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    "course": "JEE Main & Advanced",
+    "quote": "The small batch size ensured personal attention. The doubt-clearing sessions were very effective in clarifying concepts.",
+    "currentStatus": "B.Tech, IIT Madras"
+  }
+]

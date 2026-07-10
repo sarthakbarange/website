@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Rajesh Sharma",
+    "qualification": "Ph.D. Physics, IIT Bombay",
+    "experience": "15 Years",
+    "subjects": ["Physics", "Mechanics", "Electromagnetism"],
+    "specialization": "JEE Advanced Physics",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400",
+    "achievements": [
+      "Produced 100+ IITians",
+      "Former IIT Professor",
+      "Research Paper Published in 15 Journals",
+      "Best Faculty Award 2023"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dr. Priya Patel",
+    "qualification": "Ph.D. Chemistry, IIT Delhi",
+    "experience": "12 Years",
+    "subjects": ["Organic Chemistry", "Inorganic Chemistry"],
+    "specialization": "NEET Chemistry",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
+    "achievements": [
+      "500+ NEET Selections",
+      "Author of 3 Chemistry Books",
+      "Guest Lecturer at National Seminars",
+      "Excellence in Teaching Award 2022"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Prof. Amit Kumar",
+    "qualification": "M.Tech Mathematics, IIT Kanpur",
+    "experience": "18 Years",
+    "subjects": ["Calculus", "Algebra", "Coordinate Geometry"],
+    "specialization": "JEE Mathematics",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "achievements": [
+      "200+ JEE Advanced Selections",
+      "Mathematics Olympiad Trainer",
+      "Developed Unique Problem Solving Techniques",
+      "Students consistently score 95+ in Boards"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sunita Reddy",
+    "qualification": "MBBS, MD Physiology",
+    "experience": "10 Years",
+    "subjects": ["Biology", "Human Physiology", "Genetics"],
+    "specialization": "NEET Biology",
+    "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
+    "achievements": [
+      "300+ Medical College Admissions",
+      "Medical College Topper",
+      "Research in Human Anatomy",
+      "Expert in NCERT Biology"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Mr. Vikram Singh",
+    "qualification": "M.Sc. Physics, B.Ed",
+    "experience": "8 Years",
+    "subjects": ["Physics", "Foundation Science"],
+    "specialization": "Foundation & Board Preparation",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
+    "achievements": [
+      "Expert in Foundation Teaching",
+      "Students score 90+ in Boards",
+      "Olympiad Trainer",
+      "Innovative Teaching Methods"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ms. Anjali Mehta",
+    "qualification": "M.A. English, B.Ed",
+    "experience": "6 Years",
+    "subjects": ["English", "Communication Skills"],
+    "specialization": "English & Spoken English",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400",
+    "achievements": [
+      "IELTS Certified Trainer",
+      "Communication Expert",
+      "Soft Skills Trainer",
+      "1000+ Students Trained"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Mr. Rahul Verma",
+    "qualification": "B.Tech Computer Science, MCA",
+    "experience": "7 Years",
+    "subjects": ["Programming", "Web Development", "Computer Science"],
+    "specialization": "Computer Courses",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "achievements": [
+      "Former Software Engineer at MNC",
+      "Full Stack Developer",
+      "Trained 500+ Students",
+      "Industry Expert"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Dr. Meera Joshi",
+    "qualification": "Ph.D. Botany, M.Sc. Zoology",
+    "experience": "11 Years",
+    "subjects": ["Botany", "Zoology", "Environmental Science"],
+    "specialization": "NEET & Foundation Biology",
+    "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
+    "achievements": [
+      "Research in Plant Genetics",
+      "Environmental Science Expert",
+      "Board Exam Specialist",
+      "Practical Training Expert"
+    ],
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  }
+]

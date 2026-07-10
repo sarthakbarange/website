@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "How to Crack JEE Advanced in First Attempt",
+    "category": "JEE",
+    "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800",
+    "excerpt": "Expert tips and strategies from IITians on how to approach JEE Advanced preparation effectively and secure a top rank.",
+    "content": "Cracking JEE Advanced requires a strategic approach combined with consistent effort. Here are key strategies...",
+    "author": "Dr. Rajesh Sharma",
+    "date": "2024-01-15",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 2,
+    "title": "NEET 2024: Important Changes and Preparation Tips",
+    "category": "NEET",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800",
+    "excerpt": "Stay updated with the latest changes in NEET 2024 exam pattern and learn effective preparation strategies.",
+    "content": "NEET 2024 brings several changes that aspirants need to be aware of. This article covers all important updates...",
+    "author": "Dr. Priya Patel",
+    "date": "2024-01-10",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 3,
+    "title": "Time Management Tips for Competitive Exam Preparation",
+    "category": "Study Tips",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800",
+    "excerpt": "Learn effective time management techniques to balance school studies and competitive exam preparation.",
+    "content": "Balancing board exams and competitive entrance tests requires excellent time management skills...",
+    "author": "Prof. Amit Kumar",
+    "date": "2024-01-05",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 4,
+    "title": "MHT CET 2024: Complete Guide and Strategy",
+    "category": "MHT CET",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800",
+    "excerpt": "Comprehensive guide for MHT CET 2024 including exam pattern, syllabus, and preparation strategy.",
+    "content": "MHT CET is one of the most important state-level entrance exams for Maharashtra students...",
+    "author": "Mr. Vikram Singh",
+    "date": "2024-01-01",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 5,
+    "title": "The Importance of Foundation Courses for Class 8-10",
+    "category": "Foundation",
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800",
+    "excerpt": "Why building a strong foundation in early years is crucial for success in competitive exams later.",
+    "content": "Foundation courses play a pivotal role in shaping a student's academic journey...",
+    "author": "Dr. Sunita Reddy",
+    "date": "2023-12-28",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 6,
+    "title": "How to Overcome Exam Anxiety and Stress",
+    "category": "Study Tips",
+    "image": "https://images.unsplash.com/photo-1543109740-4bdb38fda756?w=800",
+    "excerpt": "Practical tips and techniques to manage exam stress and perform your best on the big day.",
+    "content": "Exam anxiety is common among students, but it can be managed with the right strategies...",
+    "author": "Ms. Anjali Mehta",
+    "date": "2023-12-25",
+    "readTime": "5 min read"
+  }
+]
