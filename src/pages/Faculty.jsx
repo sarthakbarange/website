@@ -111,7 +111,7 @@ const Faculty = () => {
       <Section gradient>
         <SectionHeader
           title="Why Our Faculty Stands Out"
-          subtitle="Excellence in Teaching"
+          subtitle="Excellent in Teaching"
           description="Our faculty members are not just teachers but mentors who guide students towards success."
         />
 
@@ -129,7 +129,7 @@ const Faculty = () => {
             },
             {
               icon: FaChalkboardTeacher,
-              title: 'Teaching Excellence',
+              title: 'Teaching Excellent',
               description: 'Innovative teaching methods that make complex concepts easy to understand.'
             },
           ].map((item, index) => (

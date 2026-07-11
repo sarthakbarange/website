@@ -52,12 +52,12 @@ const Footer = () => {
                 <FaGraduationCap className="text-white text-2xl" />
               </div>
               <div>
-                <h3 className="font-heading font-bold text-xl">Excellence Academy</h3>
+                <h3 className="font-heading font-bold text-xl">Excellent Academy</h3>
                 <p className="text-xs text-gray-400">Empowering Future Leaders</p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Excellence Academy is a premier coaching institute dedicated to providing quality education and preparing students for competitive exams with comprehensive learning programs.
+              Excellent Academy is a premier coaching institute dedicated to providing quality education and preparing students for competitive exams with comprehensive learning programs.
             </p>
             <div className="flex space-x-3">
               {socialLinks.map((social) => (
@@ -129,8 +129,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-primary flex-shrink-0" />
-                <a href="mailto:info@excellenceacademy.com" className="text-gray-400 hover:text-white transition-colors">
-                  info@excellenceacademy.com
+                <a href="mailto:info@Excellentacademy.com" className="text-gray-400 hover:text-white transition-colors">
+                  info@Excellentacademy.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">
@@ -149,7 +149,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Excellence Academy. All rights reserved.
+              © {currentYear} Excellent Academy. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="#" className="text-gray-400 hover:text-white text-sm transition-colors">

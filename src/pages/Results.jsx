@@ -118,7 +118,7 @@ const Results = () => {
         <SectionHeader
           title="Success Stories"
           subtitle="Student Testimonials"
-          description="Hear from our successful students about their journey and experience at Excellence Academy."
+          description="Hear from our successful students about their journey and experience at Excellent Academy."
         />
 
         <div className="space-y-6">
@@ -207,7 +207,7 @@ const Results = () => {
             Want to Be Our Next Top Ranker?
           </h3>
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Join Excellence Academy and let us help you achieve your dreams. Admissions for the new academic year are now open!
+            Join Excellent Academy and let us help you achieve your dreams. Admissions for the new academic year are now open!
           </p>
           <Button to="/admission" size="lg" variant="accent">
             Apply Now

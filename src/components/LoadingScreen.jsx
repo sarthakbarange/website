@@ -15,7 +15,7 @@ const LoadingScreen = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.5 }}
       >
-        Excellence Academy
+        Excellent Academy
       </motion.div>
     </div>
   )

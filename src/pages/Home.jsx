@@ -106,7 +106,7 @@ const Home = () => {
               </h1>
 
               <p className="text-base sm:text-lg text-gray-650 dark:text-gray-300 max-w-2xl leading-relaxed">
-                Join Excellence Academy and transform your dreams into reality with expert guidance, personal mentorship, and comprehensive coaching for JEE, NEET, and Board Exams.
+                Join Excellent Academy and transform your dreams into reality with expert guidance, personal mentorship, and comprehensive coaching for JEE, NEET, and Board Exams.
               </p>
 
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
@@ -129,7 +129,7 @@ const Home = () => {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border dark:border-gray-800">
                 <img
                   src="/students_classroom.png"
-                  alt="Students studying at Excellence Academy"
+                  alt="Students studying at Excellent Academy"
                   className="w-full h-[400px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent" />
@@ -181,9 +181,9 @@ const Home = () => {
       {/* Why Choose Us Section */}
       <Section gradient>
         <SectionHeader
-          title="Why Choose Excellence Academy?"
+          title="Why Choose Excellent Academy?"
           subtitle="Our Unique Approach"
-          description="We provide a holistic learning environment that focuses on academic excellence, personal growth, and overall development of every student."
+          description="We provide a holistic learning environment that focuses on academic Excellent, personal growth, and overall development of every student."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -319,7 +319,7 @@ const Home = () => {
         <SectionHeader
           title="What Our Students Say"
           subtitle="Student Testimonials"
-          description="Hear from our students and parents about their experience with Excellence Academy."
+          description="Hear from our students and parents about their experience with Excellent Academy."
         />
 
         <Swiper
@@ -403,7 +403,7 @@ const Home = () => {
               transition={{ delay: 0.2 }}
               className="text-white/80 text-base md:text-lg max-w-2xl mx-auto"
             >
-              Join thousands of successful students who have achieved their dreams with Excellence Academy. Admissions for 2024-25 are now open!
+              Join thousands of successful students who have achieved their dreams with Excellent Academy. Admissions for 2024-25 are now open!
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -428,7 +428,7 @@ const Home = () => {
         <SectionHeader
           title="Latest Announcements"
           subtitle="Stay Updated"
-          description="Important updates and announcements from Excellence Academy."
+          description="Important updates and announcements from Excellent Academy."
         />
 
         <div className="space-y-4">

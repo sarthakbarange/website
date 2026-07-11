@@ -124,8 +124,8 @@ const FAQ = () => {
               +91 98765 43210
             </a>
             <span className="text-gray-400">or</span>
-            <a href="mailto:info@excellenceacademy.com" className="text-primary font-semibold">
-              info@excellenceacademy.com
+            <a href="mailto:info@Excellentacademy.com" className="text-primary font-semibold">
+              info@Excellentacademy.com
             </a>
           </div>
         </div>

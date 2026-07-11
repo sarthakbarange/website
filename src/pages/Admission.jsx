@@ -142,7 +142,7 @@ const Admission = () => {
           <div className="lg:col-span-2">
             <SectionHeader
               title="Admission Inquiry Form"
-              subtitle="Join Excellence Academy"
+              subtitle="Join Excellent Academy"
               description="Fill out the form below and our counselor will contact you shortly."
             />
 
@@ -458,7 +458,7 @@ const Admission = () => {
                   <span className="font-medium">Phone:</span> +91 98765 43210
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  <span className="font-medium">Email:</span> admission@excellenceacademy.com
+                  <span className="font-medium">Email:</span> admission@Excellentacademy.com
                 </p>
               </div>
             </Card>

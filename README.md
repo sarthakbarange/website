@@ -1,4 +1,4 @@
-# Excellence Academy - Coaching Institute Website
+# Excellent Academy - Coaching Institute Website
 
 A modern, premium, fully responsive coaching institute website built with React, Vite, and Tailwind CSS.
 

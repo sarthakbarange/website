@@ -44,7 +44,7 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      content: 'info@excellenceacademy.com',
+      content: 'info@Excellentacademy.com',
       color: 'text-blue-500'
     },
     {

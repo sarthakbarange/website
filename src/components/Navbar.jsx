@@ -107,7 +107,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             </div>
             <div>
               <h1 className="font-heading font-bold text-xl text-primary dark:text-white">
-                Excellence Academy
+                Excellent Academy
               </h1>
               <p className="text-xs text-gray-600 dark:text-gray-300">
                 Empowering Future Leaders

@@ -379,7 +379,7 @@ const AdminDashboard = () => {
               </div>
               <h2 className="font-heading font-bold text-lg text-primary dark:text-white">Admin Panel</h2>
             </div>
-            <p className="text-[10px] text-gray-500 dark:text-gray-450 mt-0.5">Excellence Academy</p>
+            <p className="text-[10px] text-gray-500 dark:text-gray-450 mt-0.5">Excellent Academy</p>
           </div>
           
           <nav className="space-y-1">

@@ -9,7 +9,7 @@ import Button from '../components/Button'
 
 const About = () => {
   const timeline = [
-    { year: '2010', event: 'Excellence Academy founded with 50 students' },
+    { year: '2010', event: 'Excellent Academy founded with 50 students' },
     { year: '2013', event: 'First batch of JEE selections - 25 students' },
     { year: '2015', event: 'Expanded to NEET preparation' },
     { year: '2017', event: 'Opened second center in the city' },
@@ -40,7 +40,7 @@ const About = () => {
     },
     {
       icon: FaAward,
-      title: 'Excellence',
+      title: 'Excellent',
       description: 'Striving for the highest standards in education and results.',
       color: 'text-purple-500'
     },
@@ -50,7 +50,7 @@ const About = () => {
     { number: '500+', label: 'JEE/NEET Selections', icon: FaAward },
     { number: '10000+', label: 'Students Taught', icon: FaUsers },
     { number: '20+', label: 'Expert Faculty', icon: FaBook },
-    { number: '15+', label: 'Years of Excellence', icon: FaHistory },
+    { number: '15+', label: 'Years of Excellent', icon: FaHistory },
   ]
 
   return (
@@ -64,7 +64,7 @@ const About = () => {
             className="text-center"
           >
             <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-6">
-              About Excellence Academy
+              About Excellent Academy
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
               Empowering students to achieve their dreams through quality education and expert guidance since 2010.
@@ -77,7 +77,7 @@ const About = () => {
       <Section>
         <SectionHeader
           title="Our Journey"
-          subtitle="A Legacy of Excellence"
+          subtitle="A Legacy of Excellent"
           description="From a small coaching center to a premier institute, our journey has been marked by continuous growth and countless success stories."
         />
 
@@ -96,13 +96,13 @@ const About = () => {
 
           <div className="space-y-6">
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Excellence Academy was founded in 2010 with a vision to provide quality coaching to students aspiring for competitive exams. What started as a small coaching center with 50 students has now grown into a premier institute with over 10,000 students across various programs.
+              Excellent Academy was founded in 2010 with a vision to provide quality coaching to students aspiring for competitive exams. What started as a small coaching center with 50 students has now grown into a premier institute with over 10,000 students across various programs.
             </p>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
               Our journey has been marked by continuous innovation, dedicated faculty, and unwavering commitment to student success. Over the years, we have helped hundreds of students achieve their dreams of getting into top engineering and medical colleges.
             </p>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Today, Excellence Academy stands as a testament to what can be achieved with passion, dedication, and a student-first approach. We continue to evolve and adapt to the changing educational landscape while staying true to our core values.
+              Today, Excellent Academy stands as a testament to what can be achieved with passion, dedication, and a student-first approach. We continue to evolve and adapt to the changing educational landscape while staying true to our core values.
             </p>
           </div>
         </div>
@@ -310,10 +310,10 @@ const About = () => {
               </h3>
               <div className="w-20 h-1 bg-primary mb-6" />
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 italic">
-                "At Excellence Academy, we believe that every student has the potential to excel. Our role is to provide the right guidance, resources, and environment to unlock that potential. Over the years, we have seen countless students transform their lives through quality education and dedicated effort."
+                "At Excellent Academy, we believe that every student has the potential to excel. Our role is to provide the right guidance, resources, and environment to unlock that potential. Over the years, we have seen countless students transform their lives through quality education and dedicated effort."
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
-                "Our commitment to student success remains unwavering. We continuously innovate our teaching methods, upgrade our study material, and train our faculty to ensure that our students receive the best possible coaching. Join us on this journey of excellence and let's build a brighter future together."
+                "Our commitment to student success remains unwavering. We continuously innovate our teaching methods, upgrade our study material, and train our faculty to ensure that our students receive the best possible coaching. Join us on this journey of Excellent and let's build a brighter future together."
               </p>
               <div>
                 <h4 className="font-heading font-bold text-lg text-gray-900 dark:text-white">
@@ -331,7 +331,7 @@ const About = () => {
         <SectionHeader
           title="Our Achievements"
           subtitle="Numbers That Speak"
-          description="Our track record of success and commitment to excellence."
+          description="Our track record of success and commitment to Excellent."
         />
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -397,7 +397,7 @@ const About = () => {
       <Section dark>
         <div className="text-center">
           <h3 className="font-heading font-bold text-3xl md:text-4xl text-white mb-6">
-            Ready to Join Excellence Academy?
+            Ready to Join Excellent Academy?
           </h3>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
             Take the first step towards your academic success. Admissions for 2024-25 are now open!

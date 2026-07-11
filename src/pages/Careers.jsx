@@ -115,7 +115,7 @@ const Careers = () => {
       {/* Why Join Us */}
       <Section>
         <SectionHeader
-          title="Why Join Excellence Academy?"
+          title="Why Join Excellent Academy?"
           subtitle="Work With Us"
           description="Be part of a team that is dedicated to transforming education and empowering students."
         />
@@ -381,7 +381,7 @@ const Careers = () => {
                 Contact our HR team for any queries regarding job openings.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                <span className="font-medium">Email:</span> careers@excellenceacademy.com
+                <span className="font-medium">Email:</span> careers@Excellentacademy.com
               </p>
             </Card>
           </div>

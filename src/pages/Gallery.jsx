@@ -38,7 +38,7 @@ const Gallery = () => {
               Our Gallery
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              A glimpse into life at Excellence Academy - classrooms, events, workshops, and celebrations.
+              A glimpse into life at Excellent Academy - classrooms, events, workshops, and celebrations.
             </p>
           </motion.div>
         </div>
