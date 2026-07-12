@@ -1,19 +1,21 @@
 import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { 
   FaTachometerAlt, FaUsers, FaBook, FaChalkboardTeacher, 
   FaImages, FaTrophy, FaEnvelope, FaCog, FaSignOutAlt,
-  FaArrowRight, FaPlus, FaEdit, FaTrash, FaEye, FaBell
+  FaArrowRight, FaPlus, FaEdit, FaTrash, FaEye, FaBell,
+  FaBars, FaTimes, FaGraduationCap, FaMoon, FaSun
 } from 'react-icons/fa'
 
 import Card from '../../components/Card'
 import Button from '../../components/Button'
 import Modal from '../../components/Modal'
 
-const AdminDashboard = () => {
+const AdminDashboard = ({ darkMode, toggleDarkMode }) => {
   const [activeTab, setActiveTab] = useState('dashboard')
   const [notices, setNotices] = useState([])
   const [showNoticeModal, setShowNoticeModal] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [newNotice, setNewNotice] = useState({
     title: '',
     category: 'Admission',
@@ -369,9 +371,96 @@ const AdminDashboard = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-950">
+      {/* Mobile Header */}
+      <div className="lg:hidden fixed top-0 left-0 right-0 bg-white dark:bg-gray-900 border-b dark:border-gray-800 z-20">
+        <div className="flex items-center justify-between h-16 px-4">
+          <div className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+              <FaGraduationCap className="text-white text-base" />
+            </div>
+            <h2 className="font-heading font-bold text-base text-primary dark:text-white">Admin Panel</h2>
+          </div>
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={toggleDarkMode}
+              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              {darkMode ? <FaSun className="text-yellow-500 text-lg" /> : <FaMoon className="text-gray-700 text-lg" />}
+            </button>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              {mobileMenuOpen ? <FaTimes className="text-gray-700 dark:text-gray-300 text-xl" /> : <FaBars className="text-gray-700 dark:text-gray-300 text-xl" />}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, x: -300 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -300 }}
+            className="lg:hidden fixed inset-0 z-30 bg-black/50"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            <motion.div
+              initial={{ x: -300 }}
+              animate={{ x: 0 }}
+              exit={{ x: -300 }}
+              className="w-64 bg-white dark:bg-gray-900 h-full p-4"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="mb-8 pt-4">
+                <div className="flex items-center space-x-2">
+                  <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+                    <FaGraduationCap className="text-white text-base" />
+                  </div>
+                  <h2 className="font-heading font-bold text-lg text-primary dark:text-white">Admin Panel</h2>
+                </div>
+                <p className="text-[10px] text-gray-500 dark:text-gray-450 mt-0.5">Excellent Academy</p>
+              </div>
+              
+              <nav className="space-y-1">
+                {menuItems.map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => {
+                      setActiveTab(item.id)
+                      setMobileMenuOpen(false)
+                    }}
+                    className={`w-full flex items-center space-x-3 px-4 py-3 rounded-xl transition-all text-sm font-medium ${
+                      activeTab === item.id
+                        ? 'bg-primary text-white shadow-md shadow-primary/20'
+                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-55 dark:hover:bg-gray-850'
+                    }`}
+                  >
+                    <item.icon className="text-base" />
+                    <span>{item.label}</span>
+                  </button>
+                ))}
+              </nav>
+
+              <div className="absolute bottom-4 left-4 right-4">
+                <button 
+                  onClick={() => alert("Simulated: Logging out...")}
+                  className="w-full flex items-center justify-center space-x-2 px-4 py-2.5 bg-red-500 hover:bg-red-600 text-white rounded-xl transition-colors text-sm font-semibold"
+                >
+                  <FaSignOutAlt />
+                  <span>Logout</span>
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <div className="flex">
         {/* Sidebar */}
-        <div className="w-64 bg-white dark:bg-gray-900 min-h-screen p-4 fixed left-0 top-0 border-r dark:border-gray-805 z-10">
+        <div className="hidden lg:block w-64 bg-white dark:bg-gray-900 min-h-screen p-4 fixed left-0 top-0 border-r dark:border-gray-805 z-10">
           <div className="mb-8 pt-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
@@ -411,12 +500,12 @@ const AdminDashboard = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 ml-64 p-8 pt-24 min-h-screen">
-          <div className="mb-8">
-            <h1 className="font-heading font-bold text-3xl text-gray-900 dark:text-white uppercase tracking-wide">
+        <div className="flex-1 lg:ml-64 p-4 sm:p-6 md:p-8 pt-16 lg:pt-8 min-h-screen">
+          <div className="mb-6 sm:mb-8">
+            <h1 className="font-heading font-bold text-2xl sm:text-3xl text-gray-900 dark:text-white uppercase tracking-wide">
               {activeTab === 'dashboard' ? 'Overview Dashboard' : activeTab.toUpperCase()}
             </h1>
-            <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
+            <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">
               Welcome back, Administrator
             </p>
           </div>

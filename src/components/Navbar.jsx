@@ -98,30 +98,30 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           : 'bg-white dark:bg-darkBackground'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-18 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-              <FaGraduationCap className="text-white text-2xl" />
+          <Link to="/" className="flex items-center space-x-2 sm:space-x-3">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center flex-shrink-0">
+              <FaGraduationCap className="text-white text-xl sm:text-2xl" />
             </div>
-            <div>
-              <h1 className="font-heading font-bold text-xl text-primary dark:text-white">
+            <div className="hidden sm:block">
+              <h1 className="font-heading font-bold text-lg sm:text-xl text-primary dark:text-white leading-tight">
                 Excellent Academy
               </h1>
-              <p className="text-xs text-gray-600 dark:text-gray-300">
+              <p className="text-[10px] sm:text-xs text-gray-600 dark:text-gray-300">
                 Empowering Future Leaders
               </p>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-0.5 md:space-x-1">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 to={link.path}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                className={`px-3 md:px-4 py-2 rounded-full text-xs md:text-sm font-medium transition-all duration-300 ${
                   isActive(link.path)
                     ? 'bg-primary text-white'
                     : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
@@ -133,17 +133,17 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           </div>
 
           {/* Right Side Actions */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-2 md:space-x-4">
             {/* Notification Bell Dropdown */}
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={() => setShowNotifications(!showNotifications)}
-                className="p-2.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative"
+                className="p-2 md:p-2.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative"
                 aria-label="View notifications"
               >
-                <FaBell className="text-gray-700 dark:text-gray-300 text-xl" />
+                <FaBell className="text-gray-700 dark:text-gray-300 text-lg md:text-xl" />
                 {hasUnread && (
-                  <span className="absolute top-1.5 right-1.5 w-3 h-3 bg-red-500 border-2 border-white dark:border-darkBackground rounded-full animate-pulse" />
+                  <span className="absolute top-1 md:top-1.5 right-1 md:right-1.5 w-2.5 h-2.5 md:w-3 md:h-3 bg-red-500 border-2 border-white dark:border-darkBackground rounded-full animate-pulse" />
                 )}
               </button>
 
@@ -154,58 +154,58 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 15, scale: 0.95 }}
                     transition={{ duration: 0.2 }}
-                    className="absolute right-0 mt-3 w-80 bg-white/95 dark:bg-darkBackground/95 border border-gray-100 dark:border-gray-850 backdrop-blur-md shadow-2xl rounded-2xl p-4 overflow-hidden z-50 text-left"
+                    className="absolute right-0 mt-3 w-72 md:w-80 bg-white/95 dark:bg-darkBackground/95 border border-gray-100 dark:border-gray-850 backdrop-blur-md shadow-2xl rounded-2xl p-3 md:p-4 overflow-hidden z-50 text-left"
                   >
-                    <div className="flex items-center justify-between border-b dark:border-gray-800 pb-2 mb-3">
-                      <h3 className="font-heading font-bold text-sm text-gray-900 dark:text-white">
+                    <div className="flex items-center justify-between border-b dark:border-gray-800 pb-2 mb-2 md:mb-3">
+                      <h3 className="font-heading font-bold text-xs md:text-sm text-gray-900 dark:text-white">
                         Recent Notifications
                       </h3>
                       {hasUnread && (
                         <button
                           onClick={markAllAsRead}
-                          className="text-xs text-primary dark:text-secondary hover:underline font-medium"
+                          className="text-[10px] md:text-xs text-primary dark:text-secondary hover:underline font-medium"
                         >
                           Mark all as read
                         </button>
                       )}
                     </div>
 
-                    <div className="space-y-3 max-h-72 overflow-y-auto">
+                    <div className="space-y-2 md:space-y-3 max-h-64 md:max-h-72 overflow-y-auto">
                       {notifications.length > 0 ? (
                         notifications.map((notif) => (
                           <Link
                             key={notif.id}
                             to="/notice"
-                            className="block p-2.5 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                            className="block p-2 md:p-2.5 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
                           >
                             <div className="flex items-start justify-between">
-                              <span className="inline-block px-2 py-0.5 bg-primary/10 text-primary dark:text-secondary rounded text-[10px] font-medium mb-1">
+                              <span className="inline-block px-1.5 md:px-2 py-0.5 bg-primary/10 text-primary dark:text-secondary rounded text-[9px] md:text-[10px] font-medium mb-1">
                                 {notif.category}
                               </span>
                               {notif.important && (
-                                <span className="w-2 h-2 bg-red-500 rounded-full" />
+                                <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-red-500 rounded-full" />
                               )}
                             </div>
-                            <h4 className="font-heading font-semibold text-xs text-gray-950 dark:text-white mb-0.5 line-clamp-1">
+                            <h4 className="font-heading font-semibold text-[10px] md:text-xs text-gray-950 dark:text-white mb-0.5 line-clamp-1">
                               {notif.title}
                             </h4>
-                            <p className="text-[11px] text-gray-500 dark:text-gray-400 line-clamp-2 leading-relaxed">
+                            <p className="text-[10px] md:text-[11px] text-gray-500 dark:text-gray-400 line-clamp-2 leading-relaxed">
                               {notif.content}
                             </p>
                           </Link>
                         ))
                       ) : (
-                        <p className="text-center text-xs text-gray-500 py-4">
+                        <p className="text-center text-[10px] md:text-xs text-gray-500 py-3 md:py-4">
                           No notifications yet.
                         </p>
                       )}
                     </div>
 
-                    <div className="border-t dark:border-gray-800 pt-2.5 mt-3 text-center">
+                    <div className="border-t dark:border-gray-800 pt-2 md:pt-2.5 mt-2 md:mt-3 text-center">
                       <Link
                         to="/notice"
                         onClick={() => setShowNotifications(false)}
-                        className="text-xs font-semibold text-primary dark:text-secondary hover:underline"
+                        className="text-[10px] md:text-xs font-semibold text-primary dark:text-secondary hover:underline"
                       >
                         View all notices
                       </Link>
@@ -218,60 +218,60 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             {/* Dark Mode Toggle */}
             <button
               onClick={toggleDarkMode}
-              className="p-2.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-2 md:p-2.5 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
-                <FaSun className="text-yellow-500 text-xl" />
+                <FaSun className="text-yellow-500 text-lg md:text-xl" />
               ) : (
-                <FaMoon className="text-gray-700 text-xl" />
+                <FaMoon className="text-gray-700 text-lg md:text-xl" />
               )}
             </button>
 
             {/* Enroll Button */}
             <Link
               to="/admission"
-              className="px-6 py-2.5 bg-gradient-to-r from-primary to-secondary text-white rounded-full font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
+              className="px-4 md:px-6 py-2 md:py-2.5 bg-gradient-to-r from-primary to-secondary text-white rounded-full text-xs md:text-sm font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Enroll Now
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center space-x-2">
+          <div className="lg:hidden flex items-center space-x-1 md:space-x-2">
             {/* Notification Center for Mobile */}
             <Link
               to="/notice"
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative"
+              className="p-1.5 md:p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative"
               aria-label="Notifications"
             >
-              <FaBell className="text-gray-700 dark:text-gray-300 text-lg" />
+              <FaBell className="text-gray-700 dark:text-gray-300 text-base md:text-lg" />
               {hasUnread && (
-                <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 border border-white dark:border-darkBackground rounded-full" />
+                <span className="absolute top-1 md:top-1.5 right-1 md:right-1.5 w-1.5 h-1.5 md:w-2 md:h-2 bg-red-500 border border-white dark:border-darkBackground rounded-full" />
               )}
             </Link>
 
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-1.5 md:p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               aria-label="Toggle dark mode"
             >
               {darkMode ? (
-                <FaSun className="text-yellow-500 text-lg" />
+                <FaSun className="text-yellow-500 text-base md:text-lg" />
               ) : (
-                <FaMoon className="text-gray-700 text-lg" />
+                <FaMoon className="text-gray-700 text-base md:text-lg" />
               )}
             </button>
 
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-1.5 md:p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               aria-label="Toggle menu"
             >
               {isOpen ? (
-                <FaTimes className="text-gray-700 dark:text-gray-300 text-xl" />
+                <FaTimes className="text-gray-700 dark:text-gray-300 text-lg md:text-xl" />
               ) : (
-                <FaBars className="text-gray-700 dark:text-gray-300 text-xl" />
+                <FaBars className="text-gray-700 dark:text-gray-300 text-lg md:text-xl" />
               )}
             </button>
           </div>
@@ -287,12 +287,12 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             exit={{ opacity: 0, height: 0 }}
             className="lg:hidden bg-white dark:bg-darkBackground border-t dark:border-gray-800"
           >
-            <div className="px-4 py-6 space-y-2">
+            <div className="px-3 sm:px-4 py-4 md:py-6 space-y-1 md:space-y-2">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.path}
-                  className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                  className={`block px-3 md:px-4 py-2.5 md:py-3 rounded-lg text-xs md:text-sm font-medium transition-colors ${
                     isActive(link.path)
                       ? 'bg-primary text-white'
                       : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
@@ -303,7 +303,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               ))}
               <Link
                 to="/admission"
-                className="block px-4 py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg text-sm font-medium text-center mt-4"
+                className="block px-3 md:px-4 py-2.5 md:py-3 bg-gradient-to-r from-primary to-secondary text-white rounded-lg text-xs md:text-sm font-medium text-center mt-3 md:mt-4"
               >
                 Enroll Now
               </Link>

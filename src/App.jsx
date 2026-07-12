@@ -139,7 +139,7 @@ function App() {
         <ScrollProgress />
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         
-        <main>
+        <main className="pt-16 sm:pt-[4.5rem] md:pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -155,7 +155,7 @@ function App() {
             <Route path="/notice" element={<Notice />} />
             <Route path="/online-test" element={<OnlineTest />} />
             <Route path="/careers" element={<Careers />} />
-            <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/admin" element={<AdminDashboard darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
           </Routes>
         </main>
 
